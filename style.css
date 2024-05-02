@@ -1,0 +1,187 @@
+body{
+    width: 1366px;
+}
+
+
+
+
+
+header{
+    height: 80px;
+    background: #EFA358;
+    color: #FFFFFF;
+}
+
+.flex-header{
+    display: flex;
+    align-items: center;
+}
+
+header h2{
+    font-size: 1.7em;
+    margin-left: 207px; 
+    margin-top: 26px;
+    margin-right: 660px;
+    margin-bottom: 23px;
+}
+
+header ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+header ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 31px;font-size: 1.25em;
+}
+
+
+
+
+
+main img{
+    height: 603px;
+}
+
+
+
+
+.feature h2{
+    color: #555555;
+    font-size: 2em;
+    margin-left: 625px;
+    margin-top: 40px;
+    margin-bottom: 42px;
+}
+
+
+
+
+.flex-desk{
+    display: flex;
+}
+.flex-desk img{
+    width: 480px;
+    height: 329px;
+    margin-left: 203px;
+    margin-right: 60px;
+    margin-bottom: 97px;
+}
+
+
+.right-desk{
+    width: 396px;
+    height: 329px;
+}
+.desk h2{
+    font-size: 2em;
+    color: #555555;
+    
+    margin-bottom: 20px;
+
+}
+.desk ul{
+    height: 161px;
+    width: 394px;
+}
+.desk ul li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.desk a{
+    display: block;
+    width: 197px;
+    height: 47px;
+    background: #EFA358;
+    border: solid 1px #EFA358;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 15px;
+    text-decoration: none;
+    color:#FFFFFF;
+    border-radius: 15px;
+}
+
+
+
+footer{
+    height: 120px;
+    background: #EFA358;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+footer h2{
+    font-size: 1.4em;
+    padding-top: 19px;
+    margin-bottom: 20px;
+}
+
+
+
+/*----------------------------------------*/
+@media  screen and (max-width:900px) {
+    header{
+        width: 100%;
+        height: auto;
+    }
+    .flex-header{
+        flex-direction: column;
+    }
+    main{
+        width: 100%;
+        height: auto;
+    }
+    .feature{
+        width: 100%;
+        height: auto;
+    }
+    .flex-desk{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    footer{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+@media screen and (max-width:500px){
+    header{
+        width: 100%;
+        height: auto;
+    }
+    .flex-header{
+        flex-direction: column; 
+    }
+    main{
+        width: 100%;
+        height: auto;
+    }
+    .feature{
+        width: 100%;
+        height: auto;
+    }
+    .flex-desk{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    footer{
+        width: 100%;
+        height: auto;
+    }
+}
